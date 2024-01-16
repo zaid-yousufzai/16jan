@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id='favicon' rel="shortcut icon" href="images/favicon.png" type="image/x-png">
+    <title>Portfolio | Zaid Khan</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+
+<style>
+
+
+    /* skills section starts */
+
+#skills h2 {
+  text-align: center;
+  font-size: 40px;
+}
+#skills h2 i {
+  color: blue;
+}
+
+#skills {
+  display: grid;
+  place-items: center;
+  margin-bottom: 60px;
+}
+
+.team-container {
+  height: 350px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  place-items: center;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.team-slide-container {
+  display: flex;
+  width: calc(250px * 18);
+  animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}
+
+.slide-image {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+
+.team-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.social-icons{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+
+/* skill section ends */
+
+</style>
+</head>
+<body>
+   
+
+    <section id="skills">
+        <h2><i class="fa-solid fa-laptop"></i> Skills</h2>
+
+        <div class="team-container">
+            <div class="team-slide-container">
+
+   
+     
+                <div class="slide-image">
+                    <div class="team-card text-center border-0">
+                        <div class="circular-img">
+                          <img src="assets/img/team/1.jpg" class="card-img-top rounded-circle" alt="Team Member 1">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">John Doe1</h5>
+                          <p class="card-text">Web Developer</p>
+                          <div class="social-icons">
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-linkedin"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="slide-image">
+                    <div class="team-card text-center border-0">
+                        <div class="circular-img">
+                          <img src="assets/img/team/2.jpg" class="card-img-top rounded-circle" alt="Team Member 1">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">John Doe1</h5>
+                          <p class="card-text">Web Developer</p>
+                          <div class="social-icons">
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-linkedin"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="slide-image">
+                    <div class="team-card text-center border-0">
+                        <div class="circular-img">
+                          <img src="assets/img/team/3.jpg" class="card-img-top rounded-circle" alt="Team Member 1">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">John Doe1</h5>
+                          <p class="card-text">Web Developer</p>
+                          <div class="social-icons">
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-linkedin"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="slide-image">
+                    <div class="team-card text-center border-0">
+                        <div class="circular-img">
+                          <img src="assets/img/team/1.jpg" class="card-img-top rounded-circle" alt="Team Member 1">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">John Doe1</h5>
+                          <p class="card-text">Web Developer</p>
+                          <div class="social-icons">
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-linkedin"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="slide-image">
+                    <div class="team-card text-center border-0">
+                        <div class="circular-img">
+                          <img src="assets/img/team/2.jpg" class="card-img-top rounded-circle" alt="Team Member 1">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">John Doe1</h5>
+                          <p class="card-text">Web Developer</p>
+                          <div class="social-icons">
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-linkedin"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="slide-image">
+                    <div class="team-card text-center border-0">
+                        <div class="circular-img">
+                          <img src="assets/img/team/3.jpg" class="card-img-top rounded-circle" alt="Team Member 1">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">John Doe1</h5>
+                          <p class="card-text">Web Developer</p>
+                          <div class="social-icons">
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-linkedin"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="slide-image">
+                    <div class="team-card text-center border-0">
+                        <div class="circular-img">
+                          <img src="assets/img/team/1.jpg" class="card-img-top rounded-circle" alt="Team Member 1">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">John Doe1</h5>
+                          <p class="card-text">Web Developer</p>
+                          <div class="social-icons">
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-linkedin"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="slide-image">
+                    <div class="team-card text-center border-0">
+                        <div class="circular-img">
+                          <img src="assets/img/team/2.jpg" class="card-img-top rounded-circle" alt="Team Member 1">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">John Doe1</h5>
+                          <p class="card-text">Web Developer</p>
+                          <div class="social-icons">
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-linkedin"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="slide-image">
+                    <div class="team-card text-center border-0">
+                        <div class="circular-img">
+                          <img src="assets/img/team/3.jpg" class="card-img-top rounded-circle" alt="Team Member 1">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">John Doe1</h5>
+                          <p class="card-text">Web Developer</p>
+                          <div class="social-icons">
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="me-1 fs-5"><i class="fab fa-linkedin"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+
+
+
+                
+
+               
+                
+
+
+            </div>
+        </div>
+    </section>
+
+
+  
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
